@@ -3,7 +3,7 @@ import fastify from 'fastify';
 const app = fastify();
 
 app.get('/', async (request, reply) => {
-    return { Hello: "World" };
+    return { Hello: "World 2" };
 })
 
 if (require.main === module) {
